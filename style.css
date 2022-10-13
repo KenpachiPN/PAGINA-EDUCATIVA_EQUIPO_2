@@ -1,0 +1,35 @@
+
+.details__meta {
+    flex-wrap: wrap;
+    row-gap: 1.5em;
+}
+
+.instructors {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+}
+
+
+
+.details__container {
+    grid-template-columns: 8fr;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.course__video-thumb {
+    width: 100%;
+}
+
+.details__container {
+    grid-template-columns: 1fr;
+}
+
+.details__title {
+     font-size: var(--h1-font-size);
+}
+
+.course__video {
+    padding: 1.5em      ;
+}
+
