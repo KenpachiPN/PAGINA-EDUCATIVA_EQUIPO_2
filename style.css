@@ -1,0 +1,38 @@
+/*======================== BRANDS =========================*/
+.brand__title {
+    text-align: center;
+    font-size: var(--h2-font-size);
+    margin-bottom: 3rem;
+}
+
+.brand__container {
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    margin-bottom: 3rem;
+}
+
+.brand__button {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25rem;
+    cursor: pointer;
+}
+
+.brand__button-icon {
+    font-size: 1.25rem;
+    transition: .4s; 
+}
+
+.brand__button:hover .brand__button-icon {
+    transform: translateX(.25rem);
+}
+/*======================== COURSES =========================*/
+
+/*======================== COURSES PAGE =========================*/
+
+/*======================== COURSES DETAILS PAGE =========================*/
+
+/*======================== CONTACT PAGE =========================*/
