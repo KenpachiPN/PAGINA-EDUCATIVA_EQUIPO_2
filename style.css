@@ -20,14 +20,14 @@ body{
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
-    background: url(bg.jpg) center no-repeat;
+    background: url(img/bg.jpg) center no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     transition: .8s;
 }
 
 .container h1:hover{
-    background: url(bg2.jpg) bottom no-repeat;
+    background: url(img/bg2.jpg) bottom no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     transition: 0.8s;
