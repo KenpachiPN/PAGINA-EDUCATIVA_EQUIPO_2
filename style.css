@@ -659,7 +659,7 @@ img {
 .course__button{
     color: var(--title-color);
     font-size: var(--normal-font-size);
-    display: inline-flex;
+    display:  flex;
     align-items: center;
     justify-content: center;
     column-gap: .25rem;
@@ -673,4 +673,52 @@ img {
 
 .course__button:hover .course__button-icon{
     transform: translateX(.25rem);
+}
+
+.course__item:nth-child(1) .course__tag {
+    background-color: #b128ff;
+}
+
+.course__item:nth-child(1) .course__discount {
+    color: #b128ff;
+}
+
+.course__item:nth-child(2) .course__tag {
+    background-color: #fa7919;
+}
+
+.course__item:nth-child(2) .course__discount {
+    color: #fa7919;
+}
+
+.course__item:nth-child(3) .course__tag {
+    background-color: #30a820;
+}
+
+.course__item:nth-child(3) .course__discount {
+    color: #30a820;
+}
+
+.course__item:nth-child(4) .course__tag {
+    background-color: #5744cb;
+}
+
+.course__item:nth-child(4) .course__discount {
+    color: #5744cb;
+}
+
+.course__item:nth-child(5) .course__tag {
+    background-color: #f2277e;
+}
+
+.course__item:nth-child(5) .course__discount {
+    color: #f2277e;
+}
+
+.course__item:nth-child(6) .course__tag {
+    background-color: #b128ff;
+}
+
+.course__item:nth-child(6) .course__discount {
+    color: #b128ff;
 }
